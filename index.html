@@ -238,37 +238,67 @@
       <div class="persona-grid stagger">
         <!-- Busy Parent -->
         <div class="persona-card reveal">
-          <div class="persona-emoji">&#x1F3E0;</div>
+          <div class="persona-icon persona-icon-home">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
           <div class="persona-tag">For busy households</div>
           <h3>Stop being the family&rsquo;s human filing cabinet</h3>
           <p>Between school forms and grocery runs, that Netflix price hike or the Amazon Prime renewal is just one more thing to track. Lio catches the quiet charges before they hit your bank account, so you can focus on what actually matters.</p>
-          <div class="persona-example">
-            <span class="persona-example-label">Lio says:</span>
-            &ldquo;Your Costco membership renews Saturday for $65. Last year it was $60.&rdquo;
+          <!-- Photo placeholder -->
+          <div class="photo-placeholder">
+            <span class="photo-placeholder-text">Photo: Kitchen counter with pile of mail, coffee cup, and phone showing Lio Pulse screen</span>
+          </div>
+          <div class="ios-notification">
+            <div class="ios-notif-header">
+              <img src="/assets/logo.png" alt="" class="ios-notif-icon" width="20" height="20">
+              <span class="ios-notif-app">Lio</span>
+              <span class="ios-notif-time">now</span>
+            </div>
+            <div class="ios-notif-body">Your Costco membership renews Saturday for $65. Last year it was $60.</div>
           </div>
         </div>
 
         <!-- Disorganized Professional -->
         <div class="persona-card reveal">
-          <div class="persona-emoji">&#x1F4BC;</div>
+          <div class="persona-icon persona-icon-pro">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+          </div>
           <div class="persona-tag">For busy professionals</div>
           <h3>Eliminate the &lsquo;ADHD Tax&rsquo; once and for all</h3>
           <p>You missed the $50 early-bird discount on your professional dues because the email got buried under 300 newsletters. Lio pulls the deadlines out of the noise. It&rsquo;s the personal assistant you didn&rsquo;t think you could afford.</p>
-          <div class="persona-example">
-            <span class="persona-example-label">Lio says:</span>
-            &ldquo;Your CPA license renewal is due in 5 days. $150 late fee if you miss it.&rdquo;
+          <!-- Photo placeholder -->
+          <div class="photo-placeholder">
+            <span class="photo-placeholder-text">Photo: Person in cafe/airport lounge looking at phone, laptop closed beside them</span>
+          </div>
+          <div class="ios-notification">
+            <div class="ios-notif-header">
+              <img src="/assets/logo.png" alt="" class="ios-notif-icon" width="20" height="20">
+              <span class="ios-notif-app">Lio</span>
+              <span class="ios-notif-time">now</span>
+            </div>
+            <div class="ios-notif-body">Your CPA license renewal is due in 5 days. $150 late fee if you miss it.</div>
           </div>
         </div>
 
         <!-- Non-tech savvy -->
         <div class="persona-card reveal">
-          <div class="persona-emoji">&#x1F512;</div>
+          <div class="persona-icon persona-icon-safe">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
           <div class="persona-tag">For everyone, really</div>
           <h3>Technology that looks out for you, not at you</h3>
           <p>Managing your home shouldn&rsquo;t feel like a computer science project. Lio is a simple, private helper that sits on your phone and watches for your bills. No passwords to remember, no data sent to strangers. Just clear alerts when something needs your attention.</p>
-          <div class="persona-example">
-            <span class="persona-example-label">Lio says:</span>
-            &ldquo;Your electric bill is due Thursday. It&rsquo;s $12 more than last month.&rdquo;
+          <!-- Photo placeholder -->
+          <div class="photo-placeholder">
+            <span class="photo-placeholder-text">Photo: Warm, well-lit living room with phone on side table showing a simple Lio alert</span>
+          </div>
+          <div class="ios-notification">
+            <div class="ios-notif-header">
+              <img src="/assets/logo.png" alt="" class="ios-notif-icon" width="20" height="20">
+              <span class="ios-notif-app">Lio</span>
+              <span class="ios-notif-time">now</span>
+            </div>
+            <div class="ios-notif-body">Your electric bill is due Thursday. It&rsquo;s $12 more than last month.</div>
           </div>
         </div>
       </div>
@@ -412,6 +442,7 @@
           <h3>The Nuke Button</h3>
           <p>One tap. Every piece of data Lio has ever stored&mdash;classification results, vault entries, sync history, OAuth tokens&mdash;deleted instantly. This also revokes Lio&rsquo;s access to your Gmail at Google&rsquo;s servers. Not &ldquo;within 30 days.&rdquo; Not &ldquo;after review.&rdquo; Immediately. No backups survive.</p>
           <p class="nuke-sub">You trusted Lio with access. The Nuke Button is how you take it back, completely, whenever you want.</p>
+          <p class="nuke-founder">We built this because we&rsquo;re users too. If we wouldn&rsquo;t want a company holding our data forever, we don&rsquo;t think you should have to either.</p>
         </div>
       </div>
     </div>
@@ -473,7 +504,7 @@
           </div>
           <div>
             <h3>Restricted Read-Only Access</h3>
-            <p>Lio cannot send, delete, modify, or take any action on your Gmail account. Our integration is strictly limited to identifying billing, renewal, and warranty data. You remain the sole owner of your inbox, and you can revoke access at any time through your <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener noreferrer" style="color:var(--green-700); text-decoration:underline;">Google Security settings</a>.</p>
+            <p>Lio cannot send, delete, modify, or take any action on your Gmail account. Our integration is strictly limited to identifying billing, renewal, and warranty data. You remain the sole owner of your inbox, and you can revoke access at any time through your <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener noreferrer" style="color:var(--text-mid); text-decoration:none; border-bottom:1px solid var(--border);">Google Security settings</a>.</p>
           </div>
         </div>
 
