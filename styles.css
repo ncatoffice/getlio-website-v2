@@ -1177,6 +1177,21 @@ h3 { font-size: 1.35rem; line-height: 1.3; color: var(--green-900); }
   color: #4285F4;
 }
 
+/* Persona photos */
+.persona-photo {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.persona-photo img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+}
+
 /* Photo placeholders */
 .photo-placeholder {
   width: 100%;
