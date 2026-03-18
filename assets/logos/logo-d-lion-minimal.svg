@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Concept D: Minimal Lion — single-stroke geometric lion face, very clean -->
+  <defs>
+    <linearGradient id="bgD" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B4332"/>
+      <stop offset="100%" stop-color="#2D6A4F"/>
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="224" fill="url(#bgD)"/>
+  <!-- Mane — radiating lines from center -->
+  <g stroke="#52B788" stroke-width="3" stroke-linecap="round" opacity="0.4">
+    <line x1="256" y1="48" x2="256" y2="100"/>
+    <line x1="360" y1="78" x2="330" y2="122"/>
+    <line x1="434" y1="152" x2="390" y2="180"/>
+    <line x1="152" y1="78" x2="182" y2="122"/>
+    <line x1="78" y1="152" x2="122" y2="180"/>
+    <line x1="464" y1="256" x2="410" y2="256"/>
+    <line x1="48" y1="256" x2="102" y2="256"/>
+  </g>
+  <!-- Face outline -->
+  <path d="M180 180 C180 180 200 300 256 340 C312 300 332 180 332 180" fill="none" stroke="#F0EBE3" stroke-width="5" stroke-linecap="round"/>
+  <!-- Forehead line -->
+  <path d="M200 195 Q256 160 312 195" fill="none" stroke="#F0EBE3" stroke-width="4" stroke-linecap="round"/>
+  <!-- Eyes -->
+  <circle cx="224" cy="230" r="10" fill="#D4A373"/>
+  <circle cx="288" cy="230" r="10" fill="#D4A373"/>
+  <!-- Nose -->
+  <path d="M250 275 L262 275 L256 285 Z" fill="#95D5B2"/>
+  <!-- Whisker lines -->
+  <g stroke="#95D5B2" stroke-width="2" stroke-linecap="round" opacity="0.5">
+    <line x1="240" y1="290" x2="190" y2="285"/>
+    <line x1="240" y1="298" x2="195" y2="300"/>
+    <line x1="272" y1="290" x2="322" y2="285"/>
+    <line x1="272" y1="298" x2="317" y2="300"/>
+  </g>
+  <!-- Mouth -->
+  <path d="M244 295 Q256 308 268 295" fill="none" stroke="#F0EBE3" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Text underneath -->
+  <text x="256" y="430" text-anchor="middle" font-family="Georgia, serif" font-size="52" font-weight="bold" fill="#F0EBE3" letter-spacing="10">LIO</text>
+</svg>

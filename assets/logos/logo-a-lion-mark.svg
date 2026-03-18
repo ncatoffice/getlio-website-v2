@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Concept A: Geometric Lion Profile — minimal, bold, one continuous shape -->
+  <defs>
+    <linearGradient id="maneA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B4332"/>
+      <stop offset="100%" stop-color="#2D6A4F"/>
+    </linearGradient>
+  </defs>
+  <!-- Mane circle -->
+  <circle cx="256" cy="240" r="180" fill="url(#maneA)"/>
+  <!-- Face (lighter inset) -->
+  <circle cx="256" cy="260" r="120" fill="#40916C"/>
+  <!-- Snout -->
+  <ellipse cx="256" cy="310" rx="50" ry="35" fill="#52B788"/>
+  <!-- Nose -->
+  <path d="M248 298 L264 298 L256 310 Z" fill="#1B4332"/>
+  <!-- Eyes -->
+  <circle cx="216" cy="240" r="14" fill="#F0EBE3"/>
+  <circle cx="296" cy="240" r="14" fill="#F0EBE3"/>
+  <circle cx="219" cy="238" r="7" fill="#1B4332"/>
+  <circle cx="299" cy="238" r="7" fill="#1B4332"/>
+  <!-- Eye shine -->
+  <circle cx="222" cy="236" r="2.5" fill="#fff"/>
+  <circle cx="302" cy="236" r="2.5" fill="#fff"/>
+  <!-- Crown / Mane rays -->
+  <path d="M256 60 L270 100 L256 90 L242 100 Z" fill="#D4A373"/>
+  <path d="M170 100 L195 130 L178 127 L168 145 Z" fill="#D4A373"/>
+  <path d="M342 100 L317 130 L334 127 L344 145 Z" fill="#D4A373"/>
+  <path d="M120 170 L155 185 L142 190 L140 210 Z" fill="#D4A373"/>
+  <path d="M392 170 L357 185 L370 190 L372 210 Z" fill="#D4A373"/>
+  <!-- Text -->
+  <text x="256" y="460" text-anchor="middle" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="#1B4332" letter-spacing="8">LIO</text>
+</svg>

@@ -1,0 +1,4 @@
+# Block all crawlers until launch on getlio.app
+# Remove this file (or change to Allow) when ready to go live
+User-agent: *
+Disallow: /

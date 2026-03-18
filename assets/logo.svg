@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Concept B: Shield + Scanning Line — protection meets intelligence -->
+  <defs>
+    <linearGradient id="shieldB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2D6A4F"/>
+      <stop offset="100%" stop-color="#1B4332"/>
+    </linearGradient>
+    <clipPath id="shieldClip">
+      <path d="M256 56 L416 120 L416 260 C416 360 340 430 256 456 C172 430 96 360 96 260 L96 120 Z"/>
+    </clipPath>
+  </defs>
+  <!-- Shield shape -->
+  <path d="M256 56 L416 120 L416 260 C416 360 340 430 256 456 C172 430 96 360 96 260 L96 120 Z" fill="url(#shieldB)"/>
+  <!-- Inner shield -->
+  <path d="M256 88 L388 140 L388 258 C388 342 324 402 256 424 C188 402 124 342 124 258 L124 140 Z" fill="none" stroke="#52B788" stroke-width="2" opacity="0.4"/>
+  <!-- Scanning lines -->
+  <g clip-path="url(#shieldClip)" opacity="0.15">
+    <line x1="96" y1="180" x2="416" y2="180" stroke="#95D5B2" stroke-width="1.5"/>
+    <line x1="96" y1="210" x2="416" y2="210" stroke="#95D5B2" stroke-width="1.5"/>
+    <line x1="96" y1="240" x2="416" y2="240" stroke="#95D5B2" stroke-width="1.5"/>
+    <line x1="96" y1="270" x2="416" y2="270" stroke="#95D5B2" stroke-width="1.5"/>
+    <line x1="96" y1="300" x2="416" y2="300" stroke="#95D5B2" stroke-width="1.5"/>
+    <line x1="96" y1="330" x2="416" y2="330" stroke="#95D5B2" stroke-width="1.5"/>
+    <line x1="96" y1="360" x2="416" y2="360" stroke="#95D5B2" stroke-width="1.5"/>
+  </g>
+  <!-- Active scan line (bright) -->
+  <line x1="120" y1="256" x2="392" y2="256" stroke="#95D5B2" stroke-width="3" opacity="0.8"/>
+  <!-- Checkmark -->
+  <polyline points="216,268 244,296 304,220" fill="none" stroke="#F0EBE3" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Lio</title>
+  <meta name="description" content="Lio Privacy Policy. How Lio handles your data with full transparency.">
+  <link rel="icon" href="/assets/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <nav class="nav scrolled">
+    <div class="container nav-inner">
+      <a href="/" class="nav-logo">
+        <img src="/assets/logo.png" alt="Lio" class="logo-img" width="32" height="32">
+        <span class="logo-text">Lio</span>
+      </a>
+      <div class="nav-links">
+        <a href="/#how-it-works">How It Works</a>
+        <a href="/#features">Features</a>
+        <a href="/#your-data">Your Data</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/#get-lio" class="btn-nav">Get Lio</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="legal-page">
+    <div class="container">
+      <div class="legal-content">
+        <p class="legal-date">Effective Date: March 18, 2026</p>
+        <h1>Privacy Policy</h1>
+
+        <h2>1. Introduction</h2>
+        <p>Welcome to Lio ("we," "our," or "us"). We are committed to protecting your privacy. This Privacy Policy explains how Lio collects, uses, and shares information when you use our application located at <a href="https://getlio.app">getlio.app</a>.</p>
+        <p>Lio is a privacy-first personal assistant that monitors your email to detect bills, subscriptions, renewals, and warranties, then surfaces them as actionable cards. We designed Lio from the ground up to keep your data on your device.</p>
+
+        <h2>2. Information We Collect</h2>
+        <p>When you connect your Google Account to Lio, we request access to your Gmail data via the Google OAuth service. Specifically, we access:</p>
+        <ul>
+          <li><strong>Gmail Read-Only Access:</strong> To identify and process billing statements, renewal notices, payment confirmations, receipts, and warranty-related emails. Lio uses the <code>gmail.readonly</code> scope and can never send, delete, or modify your emails.</li>
+          <li><strong>Basic Profile Information:</strong> Your name and email address to create your Lio account and display your connected account within the app.</li>
+        </ul>
+        <p><strong>What Lio does NOT access:</strong> Drafts, contacts, labels, or any account other than the one you explicitly connect.</p>
+
+        <h2>3. How We Use Your Information</h2>
+        <p>Lio uses the data collected from Gmail solely to provide and improve the core features of the application. Specifically:</p>
+        <ul>
+          <li>Scanning emails to detect bills, renewals, warranties, and payment confirmations</li>
+          <li>Extracting structured information (vendor name, amount, due date) to create actionable cards</li>
+          <li>Building your Vault — a personal registry of household assets, subscriptions, and warranties</li>
+          <li>Detecting anomalies (e.g., a bill that increased significantly from the prior month)</li>
+          <li>Sending you notifications about upcoming due dates and expiring warranties</li>
+        </ul>
+        <p>We do not use this data for any other purpose.</p>
+
+        <h2>4. Google API Limited Use Disclosure</h2>
+        <p><strong>Lio's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener noreferrer">Google API Services User Data Policy</a>, including the <a href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes" target="_blank" rel="noopener noreferrer">Limited Use requirements</a>.</strong></p>
+        <ul>
+          <li><strong>No Advertising:</strong> We will never use your Gmail data to serve you advertisements.</li>
+          <li><strong>No Sale of Data:</strong> We do not sell, rent, or trade your Gmail data to third parties.</li>
+          <li><strong>Human Review:</strong> Our employees do not read your emails unless you provide explicit consent for troubleshooting or support purposes.</li>
+        </ul>
+
+        <h2>5. On-Device Processing</h2>
+        <p>Lio's email classification pipeline runs entirely on your iPhone using Apple's on-device machine learning models. This means:</p>
+        <ul>
+          <li>Your email content is processed locally on your device</li>
+          <li>Emails are never sent to Lio's servers or any external servers for routine classification</li>
+          <li>Only structured, extracted facts (vendor name, amount, due date) are stored locally in the app's database</li>
+          <li>Raw email content is not retained after processing</li>
+        </ul>
+        <p>Optional cloud-assisted processing (for complex emails) is disabled by default and requires your explicit opt-in.</p>
+
+        <h2>6. Data Storage and Security</h2>
+        <p>Your data is stored securely using industry-standard protections:</p>
+        <ul>
+          <li><strong>On-Device Storage:</strong> All app data is stored locally using SwiftData, protected by iOS Data Protection encryption. Your data is encrypted at rest and accessible only when your device is unlocked.</li>
+          <li><strong>OAuth Tokens:</strong> Your Google OAuth tokens are stored in the iOS Keychain, Apple's most secure on-device storage, protected by the Secure Enclave.</li>
+          <li><strong>Optional iCloud Backup:</strong> Disabled by default. If enabled, only extracted facts (not raw emails) are synced via Apple's CloudKit with end-to-end encryption.</li>
+          <li><strong>No Third-Party SDKs:</strong> Lio includes zero third-party analytics, tracking, or advertising SDKs.</li>
+        </ul>
+
+        <h2>7. Data Retention and Deletion</h2>
+        <p>You are in full control of your data:</p>
+        <ul>
+          <li>You can disconnect Lio from your Google Account at any time via your <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener noreferrer">Google Security settings</a>.</li>
+          <li>The <strong>Nuke Button</strong> in Lio's settings instantly deletes all stored data and revokes Gmail access at Google's servers. No retention period. No backups.</li>
+          <li>Upon request, we will delete all data associated with your account within 30 days.</li>
+        </ul>
+
+        <h2>8. User Controls</h2>
+        <p>Lio provides the following privacy controls:</p>
+        <ul>
+          <li><strong>Delete All Data ("Nuke"):</strong> Instantly removes all app data and revokes Google access</li>
+          <li><strong>Disconnect Gmail:</strong> Revoke Lio's access to your Gmail account at any time</li>
+          <li><strong>View Data Sources:</strong> See exactly what information Lio has extracted and where it came from ("Things I Know About You" transparency view)</li>
+          <li><strong>Manage Cloud Backup:</strong> Control whether extracted facts are backed up to iCloud (disabled by default)</li>
+        </ul>
+
+        <h2>9. Children's Privacy</h2>
+        <p>Lio is not intended for use by children under the age of 13. We do not knowingly collect personal information from children under 13.</p>
+
+        <h2>10. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. We will notify you of any material changes by posting the new Privacy Policy on this page and updating the "Effective Date" at the top.</p>
+
+        <h2>11. Contact Us</h2>
+        <p>If you have questions about this policy, contact us at: <a href="mailto:support@getlio.app">support@getlio.app</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="nav-logo">
+            <img src="/assets/logo.png" alt="Lio" class="logo-img" width="32" height="32">
+            <span class="logo-text">Lio</span>
+          </a>
+          <p>Your AI life admin assistant.<br>Privacy-first, always.</p>
+        </div>
+        <div class="footer-cols">
+          <div class="footer-col">
+            <h4>Product</h4>
+            <a href="/#how-it-works">How It Works</a>
+            <a href="/#features">Features</a>
+            <a href="/#your-data">Data Safety</a>
+          </div>
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <a href="/privacy/">Privacy Policy</a>
+            <a href="/terms/">Terms of Service</a>
+          </div>
+          <div class="footer-col">
+            <h4>Support</h4>
+            <a href="mailto:support@getlio.app">Contact Support</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Lio. All rights reserved.</p>
+        <p class="limited-use">
+          Lio&rsquo;s use and transfer to any other app of information received from Google APIs will adhere to the
+          <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener noreferrer">Google API Services User Data Policy</a>,
+          including the <a href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes" target="_blank" rel="noopener noreferrer">Limited Use requirements</a>.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const links = document.querySelector('.nav-links');
+    toggle?.addEventListener('click', () => { links.classList.toggle('active'); toggle.classList.toggle('active'); });
+  </script>
+</body>
+</html>

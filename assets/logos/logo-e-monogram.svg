@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Concept E: Stacked monogram — "LIO" stacked vertically in a tight square, editorial/luxury feel -->
+  <rect x="32" y="32" width="448" height="448" rx="24" fill="#1B4332"/>
+  <!-- Inner border -->
+  <rect x="52" y="52" width="408" height="408" rx="12" fill="none" stroke="#2D6A4F" stroke-width="2"/>
+  <!-- L -->
+  <text x="256" y="195" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="100" font-weight="bold" fill="#F0EBE3" letter-spacing="2">L</text>
+  <!-- I -->
+  <text x="256" y="295" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="100" font-weight="bold" fill="#D4A373" letter-spacing="2">I</text>
+  <!-- O -->
+  <text x="256" y="395" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="100" font-weight="bold" fill="#95D5B2" letter-spacing="2">O</text>
+  <!-- Decorative line -->
+  <line x1="160" y1="420" x2="352" y2="420" stroke="#2D6A4F" stroke-width="1.5"/>
+</svg>

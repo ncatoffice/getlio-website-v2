@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lio — Logo Options</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #f5f0eb; font-family: Georgia, serif; color: #1a1a1a; padding: 60px 24px; }
+    h1 { text-align: center; font-size: 2.5rem; margin-bottom: 12px; }
+    p.sub { text-align: center; color: #666; margin-bottom: 60px; font-size: 1.1rem; }
+    .grid { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
+    .card { background: #fff; border-radius: 20px; padding: 32px; text-align: center; box-shadow: 0 2px 20px rgba(0,0,0,0.06); transition: transform 0.3s, box-shadow 0.3s; }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 8px 40px rgba(0,0,0,0.1); }
+    .card img { width: 200px; height: 200px; margin: 0 auto 20px; }
+    .card h2 { font-size: 1.2rem; margin-bottom: 8px; }
+    .card p { font-size: 0.9rem; color: #666; line-height: 1.5; }
+    .label { display: inline-block; background: #1B4332; color: #fff; padding: 4px 12px; border-radius: 100px; font-size: 0.75rem; font-family: sans-serif; margin-bottom: 16px; }
+    .previews { max-width: 1100px; margin: 60px auto 0; }
+    .previews h2 { text-align: center; margin-bottom: 32px; }
+    .preview-row { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; }
+    .mini { width: 64px; height: 64px; border-radius: 14px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.1); }
+    .mini img { width: 100%; height: 100%; }
+    @media (max-width: 768px) { .grid { grid-template-columns: 1fr; max-width: 400px; } }
+  </style>
+</head>
+<body>
+  <h1>Lio Logo Options</h1>
+  <p class="sub">Pick the one that feels right. These are all SVG — scalable to any size.</p>
+
+  <div class="grid">
+    <div class="card">
+      <span class="label">A</span>
+      <img src="/assets/logos/logo-a-lion-mark.svg" alt="Logo A">
+      <h2>Geometric Lion</h2>
+      <p>Friendly, recognizable lion face with golden crown rays. Approachable and warm.</p>
+    </div>
+    <div class="card">
+      <span class="label">B</span>
+      <img src="/assets/logos/logo-b-abstract-shield.svg" alt="Logo B">
+      <h2>Shield + Scan</h2>
+      <p>Protection meets intelligence. Shield shape with scanning lines and a checkmark. Trust-forward.</p>
+    </div>
+    <div class="card">
+      <span class="label">C</span>
+      <img src="/assets/logos/logo-c-lettermark.svg" alt="Logo C">
+      <h2>L Lettermark</h2>
+      <p>Bold, minimal "L" with a pulsing dot. Clean enough for an app icon, distinctive at any size.</p>
+    </div>
+    <div class="card">
+      <span class="label">D</span>
+      <img src="/assets/logos/logo-d-lion-minimal.svg" alt="Logo D">
+      <h2>Minimal Lion</h2>
+      <p>Single-stroke lion face in a circle. Line-art style, feels modern and refined.</p>
+    </div>
+    <div class="card">
+      <span class="label">E</span>
+      <img src="/assets/logos/logo-e-monogram.svg" alt="Logo E">
+      <h2>Stacked Monogram</h2>
+      <p>L-I-O stacked vertically with color accents. Editorial, luxury feel. Strong brand presence.</p>
+    </div>
+    <div class="card">
+      <span class="label">F</span>
+      <img src="/assets/logos/logo-f-lion-badge.svg" alt="Logo F">
+      <h2>Lion Badge</h2>
+      <p>Stylized lion in a rounded square — ready to drop straight into an iOS app icon. Playful but confident.</p>
+    </div>
+  </div>
+
+  <div class="previews">
+    <h2>App Icon Preview (64px)</h2>
+    <div class="preview-row">
+      <div class="mini"><img src="/assets/logos/logo-a-lion-mark.svg" alt="A"></div>
+      <div class="mini"><img src="/assets/logos/logo-b-abstract-shield.svg" alt="B"></div>
+      <div class="mini"><img src="/assets/logos/logo-c-lettermark.svg" alt="C"></div>
+      <div class="mini"><img src="/assets/logos/logo-d-lion-minimal.svg" alt="D"></div>
+      <div class="mini"><img src="/assets/logos/logo-e-monogram.svg" alt="E"></div>
+      <div class="mini"><img src="/assets/logos/logo-f-lion-badge.svg" alt="F"></div>
+    </div>
+  </div>
+</body>
+</html>

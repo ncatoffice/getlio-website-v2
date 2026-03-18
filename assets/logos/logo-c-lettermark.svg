@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Concept C: Bold Lettermark — "L" with a notch/eye, sits in a rounded square -->
+  <defs>
+    <linearGradient id="bgC" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B4332"/>
+      <stop offset="100%" stop-color="#2D6A4F"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect x="32" y="32" width="448" height="448" rx="96" fill="url(#bgC)"/>
+  <!-- The "L" -->
+  <path d="M168 128 L168 340 L344 340 L344 384 L128 384 L128 128 Z" fill="#F0EBE3"/>
+  <!-- Notch / "eye" detail — a small circle cut into the corner of the L -->
+  <circle cx="168" cy="128" r="0" fill="#1B4332"/>
+  <!-- Dot accent — represents the scanning/intelligence aspect -->
+  <circle cx="344" cy="172" r="28" fill="#D4A373"/>
+  <!-- Smaller echo dot -->
+  <circle cx="344" cy="172" r="44" fill="none" stroke="#D4A373" stroke-width="2" opacity="0.3"/>
+  <circle cx="344" cy="172" r="60" fill="none" stroke="#D4A373" stroke-width="1.5" opacity="0.15"/>
+</svg>
